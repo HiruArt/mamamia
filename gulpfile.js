@@ -64,6 +64,7 @@ gulp.task('js', () => {
 gulp.task('css-libs', () => {
   return gulp.src([
       'node_modules/normalize.css/normalize.css',
+      'node_modules/bootstrap/dist/css/bootstrap-grid.min.css',
       // 'node_modules/owl.carousel/dist/assets/owl.carousel.css',
       // 'node_modules/aos/dist/aos.css',
       // 'node_modules/swiper/css/swiper.min.css',
