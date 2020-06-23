@@ -5,21 +5,23 @@ header.header
         a(href="/").header__logo
           img(src="./img/logo.png" width="204" height="30" alt="MaMa MiA logo").header__logo-i
       .header__col
-        a(href="#").header__lunch-delivery
+        a(href="#").header__lunch-delivery.header__item
           include ../../img/header/serving-dish.svg
-          .header__lunch-delivery-txt Доставка обедов
+          .header__lunch-delivery-txt.header__item-inner Доставка<br>обедов
       .header__col
-        a(href="#").header__lunch-delivery
+        a(href="#").header__phone.header__item
           include ../../img/header/customer-service-gr.svg
-          .header__lunch-delivery-txt 555-888
+          .header__phone.header__item-inner 555-888
       .header__col
-        a(href="#").header__lunch-delivery
+        a(href="#").header__favorite.header__item
           include ../../img/header/like-bl.svg
-          .header__lunch-delivery-txt Любимые блюда
+          .header__favorite.header__item-inner Любимые<br>блюда
       .header__col
-        a(href="#").header__lunch-delivery
+        a(href="#").header__basket.header__item
           include ../../img/header/user.svg
-          .header__lunch-delivery-txt Вход/Регистрация
+          .header__basket-txt.header__item-inner Вход/Регистрация
+            span 100 баллов в подарок
+
     .header__bottom.header__fix
       .header__menu-btn
         a(href="#").header__menu-btn-i#menu-btn

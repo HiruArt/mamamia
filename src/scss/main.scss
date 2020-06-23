@@ -105,7 +105,7 @@ ul,p{
   }
 }
 
-.desctop{
+.desktop{
 
   @include for-768{
     display: none;
@@ -242,28 +242,16 @@ ul,p{
 
 }
 
+.error-field input{
+  border-color: red !important;
+}
+
+
 .submitted + .site-form-submit{
   visibility: visible;
   opacity: 1;
   z-index: 2;
 }
-
-.check-items{
-
-}
-
-.check-item{
-
-}
-
-.site-tabs{
-
-
-  &__item{
-
-  }
-}
-
 
 /*site styles end*/
 
@@ -284,6 +272,173 @@ ul,p{
 }
 
 
-.error-field input{
-  border-color: red !important;
+
+/*header start*/
+
+.header{
+
+  &__inner{
+    display: flex;
+    flex-direction: column;
+
+    padding-right: 10px;
+    padding-left: 10px;
+    max-width: 1220px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+
+  &__top{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  &__col{
+
+  }
+
+  &__item{
+    display: flex;
+
+    svg{
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  &__item-inner{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+
+  &__logo{
+
+  }
+
+  &__logo-i{
+
+  }
+
+  &__lunch-delivery{
+
+  }
+
+  &__lunch-delivery-txt{
+
+  }
+
+  &__phone{
+
+  }
+
+  &__favorite{
+
+  }
+
+  &__basket{
+
+  }
+
+  &__basket-txt{
+
+  }
+
+  &__bottom{
+
+  }
+
+  &__fix{
+
+  }
+
+  &__menu-btn{
+
+  }
+
+  &__menu-btn-i{
+
+  }
+
+  &__menu-list{
+
+  }
+
+  &__menu-item{
+
+  }
+
+  &__menu-link{
+
+  }
+
+  &__basket{
+
+  }
+
+  &__basket-btn{
+
+  }
+
+  &__basket-txt{
+
+  }
+
+  &__basket-ico{
+
+  }
+
+  &__basket-ico-i{
+
+  }
+
+  &__main-menu{
+
+  }
+
 }
+
+.nav{
+
+  &__list{
+
+  }
+
+  &__item{
+
+  }
+
+  &__link{
+
+  }
+
+  &__social{
+
+  }
+
+  &__social-link{
+
+  }
+
+  &__social-ico{
+
+  }
+
+  &__app{
+
+  }
+
+  &__app-item{
+
+  }
+
+  &__app-link{
+
+  }
+
+
+}
+
+/*header end*/
